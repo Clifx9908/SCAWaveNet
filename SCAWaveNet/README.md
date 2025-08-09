@@ -15,7 +15,7 @@ pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https
 2. **Installation of other dependencies**
 
 ```shell
-pip install -r requirements.txt
+pip install -r ../requirements.txt
 ```
 
 ⚠️ **Note:**  if the code fails to run due to the NumPy version, it may be necessary to downgrade NumPy to a version below 2.0
