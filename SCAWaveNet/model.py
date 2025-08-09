@@ -1,7 +1,7 @@
 """
 This code was written with reference to the following sources:
 - https://github.com/hyunwoongko/transformer (LICENSE-2.0)
-- Videos from YouTuber Umar Jamil
+- Videos from YouTube
 Author: Chong Zhang
 Date: April 17, 2025
 """
