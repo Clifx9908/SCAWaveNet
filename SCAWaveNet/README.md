@@ -44,17 +44,20 @@ python ./SCAWaveNet/test.py
 
 ### Project Composition (after running)
 
-```markdown
-+ SCAWaveNet
-  + Saved_files
-    + models
-    + outputs
-    + predictions
-  + main.py  
-  + model.py
-  + test.py
-  + utils.py
-  + README.md
+```asciiarmor
+SCAWaveNet
+├── Saved_files
+│   ├── models
+│   │   └── model_best_rmse_exp{x}.pth
+│   ├── outputs
+│   │   └── valid_results_epoch{x}_exp{x}.pdf
+│   └── predictions
+│       └── model_best_rmse_exp{x}_{xxx}_predictions.mat
+├── main.py  
+├── model.py
+├── test.py
+├── utils.py
+└── README.md
 ```
 
 
