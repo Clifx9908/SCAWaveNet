@@ -5,7 +5,6 @@ import h5py
 from torch.utils.data import Dataset
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
-from sklearn import preprocessing
 
 
 # Read .mat file
