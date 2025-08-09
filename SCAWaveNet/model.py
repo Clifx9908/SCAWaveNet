@@ -1,3 +1,11 @@
+"""
+This code was written with reference to the following sources:
+- https://github.com/hyunwoongko/transformer (LICENSE-2.0)
+- Videos from YouTuber Umar Jamil
+Author: Chong Zhang
+Date: April 17, 2025
+"""
+
 import torch
 from torch import nn
 from torch.nn import Linear, Conv1d, Conv2d, Sequential, ReLU, Dropout, Parameter, Sigmoid

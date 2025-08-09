@@ -1,3 +1,8 @@
+"""
+Author: Chong Zhang
+Date: April 17, 2025
+"""
+
 import os
 import sys
 import numpy as np
