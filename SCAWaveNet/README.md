@@ -29,7 +29,7 @@ GPU Memory should be more than **8 GB**.
 1. **Overall code running**
 
 ```shell
-python ./SCAWaveNet/main.py
+python main.py
 ```
 
 ⚠️ **Note:**  before running the code, please ensure that the dataset is prepared on your device and the **corresponding paths should be added in the code** (main.py, test.py).  In this work, the training, validation, and test sets are all derived from the **CYGNSS-ERA5** dataset. The dataset contains DDMs (brcs, scatter, power), Input_N (selected auxiliary parameters), and the reference field (SWH). If you wish to incorporate additional environmental variables into the training process, please modify the corresponding parts of the code.  
@@ -39,7 +39,7 @@ python ./SCAWaveNet/main.py
 If you wish to test the model independently, please ensure that the paths to the corresponding **test set** and **model weight file** are added in test.py.:
 
 ```shell
-python ./SCAWaveNet/test.py
+python test.py
 ```
 
 ### Project Composition (after running)
