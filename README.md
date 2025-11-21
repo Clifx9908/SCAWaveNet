@@ -5,6 +5,8 @@
 <div align=center>
     <img src="./pics/SCAWaveNet_architecture.jpg" alt="SCAWaveNet_architecture"/>
 </div> 
+
+
 ## Latest News:
 
 - [17/11/2025]:🎉🎉🎉 Our paper has been accepted by *IEEE Transactions on Geoscience and Remote Sensing ! 
