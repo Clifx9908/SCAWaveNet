@@ -465,7 +465,7 @@ def run_experiments(data_train, data_valid, data_test):
         valid_batch = 512
         test_batch = 512
         lr = 1.4e-4
-        weight_decay = 1e-5
+        weight_decay = 1e-2
         delta = 2.0
         patience = 15
 

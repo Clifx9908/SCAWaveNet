@@ -5,11 +5,13 @@
 <div align=center>
     <img src="./pics/SCAWaveNet_architecture.jpg" alt="SCAWaveNet_architecture"/>
 </div> 
+## 📰 **Latest News:** 
 
+- [17/11/2025]:🎉🎉🎉 Our paper has been accepted by *IEEE Transactions on Geoscience and Remote Sensing (TGRS)*! 
 
 ## Abstract
 
-Recent advancements in spaceborne GNSS missions have produced extensive global datasets, providing a robust basis for deep learning-based significant wave height (SWH) retrieval. While existing deep learning models predominantly utilize CYGNSS data with four-channel information, they often adopt single-channel inputs or simple channel concatenation without leveraging the benefits of cross-channel information interaction during training. To address this limitation, a novel spatial–channel attention-based network, namely SCAWaveNet, is proposed for SWH retrieval. Specifically, features from each channel of the DDMs are modeled as independent attention heads, enabling the fusion of spatial and channel-wise information. For auxiliary parameters, a lightweight attention mechanism is designed to assign weights along the spatial and channel dimensions. The final feature integrates both spatial and channel-level characteristics. Model performance is evaluated using four-channel CYGNSS data. When ERA5 is used as a reference, SCAWaveNet achieves an average RMSE of 0.438 m. When using buoy data from NDBC, the average RMSE reaches 0.432 m. Compared to state-of-the-art models, SCAWaveNet reduces the average RMSE by at least 3.52% on the ERA5 dataset and by 5.68% on the NDBC buoy observations.
+Recent advancements in spaceborne GNSS missions have produced extensive global datasets, providing a robust basis for deep learning-based significant wave height (SWH) retrieval. While existing deep learning models predominantly utilize CYGNSS data with four-channel information, they often adopt single-channel inputs or simple channel concatenation without leveraging the benefits of cross-channel information interaction during training. To address this limitation, a novel spatial–channel attention-based network, namely SCAWaveNet, is proposed for SWH retrieval. Specifically, features from each channel of the DDMs are modeled as independent attention heads, enabling the fusion of spatial and channel-wise information. For auxiliary parameters, a lightweight attention mechanism is designed to assign weights along the spatial and channel dimensions. The final feature integrates both spatial and channel-level characteristics. Model performance is evaluated using four-channel CYGNSS data. Quantitative and qualitative experiments were conducted on CYGNSS-ERA5 test set, SCAWaveNet achieves an average RMSE of 0.438 m. Compared to state-of-the-art models, SCAWaveNet reduces RMSE by at least 3.52\%. Furthermore, evaluations on WW3, Jason-3, and NDBC buoy data, as well as in wind speed, rainstorm, typhoon and noisy scenarios, further confirm the superiority of SCAWaveNet.
 
 ## Getting Started
 
@@ -78,12 +80,16 @@ SCAWaveNet
 If our work is helpful to you, please cite it as follows:
 
 ```
-@article{zhang2025scawavenet,
-  title={SCAWaveNet: A Spatial-Channel Attention-based Network for Global Significant Wave Height Retrieval},
-  author={Zhang, Chong and Liu, Xichao and Zhan, Yibing and Tao, Dapeng and Ni, Jun},
-  journal={arXiv preprint arXiv:2507.00701},
-  year={2025}
-}
+@ARTICLE{11261900,
+  author={Zhang, Chong and Liu, Xichao and Ni, Jun and Bu, Jinwei and Zhan, Yibing and Tao, Dapeng},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={SCAWaveNet: A Spatial-Channel Attention-Based Network for Global Significant Wave Height Retrieval}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Transformers;Data models;Feature extraction;Global navigation satellite system;Attention mechanisms;Accuracy;Deep learning;Receivers;Predictive models;Oceans;Spatial–channel attention (SCA);significant wave height (SWH) retrieval;Global Navigation Satellite System (GNSS);Cyclone GNSS (CYGNSS)},
+  doi={10.1109/TGRS.2025.3635143}}
 ```
 
 
