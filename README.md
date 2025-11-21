@@ -9,7 +9,7 @@
 
 ## 📰Latest News:
 
-- [17/11/2025]:🎉🎉🎉 Our paper has been accepted by *IEEE Transactions on Geoscience and Remote Sensing ! 
+- [17/11/2025]:🎉🎉🎉 Our paper has been accepted by IEEE Transactions on Geoscience and Remote Sensing ! 
 
 ## Abstract
 
