@@ -13,7 +13,7 @@
 
 ## Abstract
 
-Recent advancements in spaceborne GNSS missions have produced extensive global datasets, providing a robust basis for deep learning-based significant wave height (SWH) retrieval. While existing deep learning models predominantly utilize CYGNSS data with four-channel information, they often adopt single-channel inputs or simple channel concatenation without leveraging the benefits of cross-channel information interaction during training. To address this limitation, a novel spatial–channel attention-based network, namely SCAWaveNet, is proposed for SWH retrieval. Specifically, features from each channel of the DDMs are modeled as independent attention heads, enabling the fusion of spatial and channel-wise information. For auxiliary parameters, a lightweight attention mechanism is designed to assign weights along the spatial and channel dimensions. The final feature integrates both spatial and channel-level characteristics. Model performance is evaluated using four-channel CYGNSS data. Quantitative and qualitative experiments were conducted on CYGNSS-ERA5 test set, SCAWaveNet achieves an average RMSE of 0.438 m. Compared to state-of-the-art models, SCAWaveNet reduces RMSE by at least 3.52\%. Furthermore, evaluations on WW3, Jason-3, and NDBC buoy data, as well as in wind speed, rainstorm, typhoon and noisy scenarios, further confirm the superiority of SCAWaveNet.
+Recent advancements in spaceborne global navigation satellite system (GNSS) missions have produced extensive global datasets, providing a robust basis for deep-learning (DL)-based significant wave height (SWH) retrieval. While existing DL models predominantly use cyclone GNSS (CYGNSS) data with four-channel information, they often adopt single-channel inputs or simple channel concatenation without leveraging the benefits of cross-channel information interaction during training. To address this limitation, a novel spatial–channel attention-based network, namely, SCAWaveNet, is proposed for SWH retrieval. Specifically, features from each channel of the delay-Doppler maps (DDMs) are modeled as independent attention heads, enabling the fusion of spatial and channelwise information. For auxiliary parameters (APs), a lightweight attention mechanism is designed to assign weights along the spatial and channel dimensions. The final feature integrates both spatial and channel-level characteristics. Model performance is evaluated using four-channel CYGNSS data. Quantitative and qualitative experiments were conducted on CYGNSS-ERA5 test set, SCAWaveNet achieves an average RMSE of 0.438 m. Compared with state-of-the-art models, SCAWaveNet reduces RMSE by at least 3.52%. Furthermore, evaluations on WaveWatch III (WW3), Jason-3, and National Data Buoy Center (NDBC) buoy data, as well as in wind speed (WS), rainstorm, typhoon, and noisy scenarios, further confirm the superiority of SCAWaveNet.
 
 ## Getting Started
 
@@ -85,12 +85,12 @@ If our work is helpful to you, please cite it as follows:
 @ARTICLE{11261900,
   author={Zhang, Chong and Liu, Xichao and Ni, Jun and Bu, Jinwei and Zhan, Yibing and Tao, Dapeng},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={SCAWaveNet: A Spatial-Channel Attention-Based Network for Global Significant Wave Height Retrieval}, 
+  title={SCAWaveNet: A Spatial–Channel Attention-Based Network for Global Significant Wave Height Retrieval}, 
   year={2025},
-  volume={},
+  volume={63},
   number={},
-  pages={1-1},
-  keywords={Transformers;Data models;Feature extraction;Global navigation satellite system;Attention mechanisms;Accuracy;Deep learning;Receivers;Predictive models;Oceans;Spatial–channel attention (SCA);significant wave height (SWH) retrieval;Global Navigation Satellite System (GNSS);Cyclone GNSS (CYGNSS)},
+  pages={1-17},
+  keywords={Transformers;Data models;Feature extraction;Global navigation satellite system;Attention mechanisms;Accuracy;Deep learning;Receivers;Predictive models;Oceans;Cyclone GNSS (CYGNSS);global navigation satellite system (GNSS);significant wave height (SWH) retrieval;spatial–channel attention (SCA)},
   doi={10.1109/TGRS.2025.3635143}}
 ```
 
