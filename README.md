@@ -9,7 +9,7 @@
 
 ## 📰Latest News:
 
-- [17/11/2025]:🎉🎉🎉 Our paper has been accepted by *IEEE Transactions on Geoscience and Remote Sensing* ! 
+- [20/11/2025]:🎉🎉🎉 Our paper has been published by *IEEE Transactions on Geoscience and Remote Sensing* ! 
 
 ## Abstract
 
@@ -82,16 +82,15 @@ SCAWaveNet
 If our work is helpful to you, please cite it as follows:
 
 ```
-@ARTICLE{11261900,
+@article{zhang2025scawavenet,
+  title={SCAWaveNet: A Spatial--Channel Attention-Based Network for Global Significant Wave Height Retrieval},
   author={Zhang, Chong and Liu, Xichao and Ni, Jun and Bu, Jinwei and Zhan, Yibing and Tao, Dapeng},
-  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={SCAWaveNet: A Spatial–Channel Attention-Based Network for Global Significant Wave Height Retrieval}, 
-  year={2025},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
   volume={63},
-  number={},
-  pages={1-17},
-  keywords={Transformers;Data models;Feature extraction;Global navigation satellite system;Attention mechanisms;Accuracy;Deep learning;Receivers;Predictive models;Oceans;Cyclone GNSS (CYGNSS);global navigation satellite system (GNSS);significant wave height (SWH) retrieval;spatial–channel attention (SCA)},
-  doi={10.1109/TGRS.2025.3635143}}
+  pages={1--17},
+  year={2025},
+  publisher={IEEE}
+}
 ```
 
 
