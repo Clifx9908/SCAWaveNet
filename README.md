@@ -92,11 +92,3 @@ If our work is helpful to you, please cite it as follows:
   publisher={IEEE}
 }
 ```
-
-
-
-## ToDo
-
-- [x] Release SCAWaveNet training code.
-- [x] Release SCAWaveNet evaluation and metrics code.
-- [ ] Release other code in the project.
